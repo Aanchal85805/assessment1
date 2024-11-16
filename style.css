@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 400px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.options {
+    display: none;
+    margin-top: 113px;
+    margin-left: -337px;
+}
+
+
+.box.open {
+    background-color: #f0f0f0;
+}
+
+.box.open .options {
+    display: block;
+
+}
+
+select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.elipse {
+    width: 12px;
+    height: 12px;
+    top: 109.85px;
+    border-radius: 50%;
+    border: 0.9px solid black
+}
+
+.unit1 {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.unit h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1px;
+
+}
+
+.container-box {
+    display: flex;
+    gap: 5px;
+
+}
+
+.off {
+    background: #FF6B82;
+    color: #FFFFFF;
+    width: 55px;
+    height: 8px;
+    padding: 8px;
+    text-align: left;
+    position: relative;
+    left: -38px;
+    bottom: 6px;
+}
+
+.container-box .off p {
+    font-size: 14px;
+}
+
+.container-box .right {
+    margin-right: 20px;
+}
+
+.right .line {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #7a7878;
+    text-decoration: line-through;
+
+
+
+}
+
+.box:hover {
+    border: 2px rgb(1, 26, 1);
+}
+
+.box {
+    border: 0.5px solid gray;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total .free p {
+    color: #FF6B82;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.total .totalCart {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btnCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0f0;
+    width: 400px;
+    height: 60px;
+    background: #FF6B82;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.btnCart .btn {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.selected {
+    border-color: blue;
+    /* Change the border color when selected */
+}
+
+.radio-div {
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 148px;
+    left: 279px;
+    background: #FF6B82;
+    width: 119px;
+    height: 26px;
+    border-radius: 6px 6px 4px 4px;
+
+}
+
+.popular p {
+    font-size: 14px;
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
